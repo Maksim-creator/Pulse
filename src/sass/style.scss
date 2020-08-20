@@ -1,7 +1,7 @@
 @import 'base/variables';
 
-*{
-    font-family: 'Museo Sans Cyrl', sans-serif;
+* {
+    font-family: 'MuseoSansCyrl', sans-serif;
 }
 
 .container{
@@ -13,4 +13,11 @@
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/answers';
+@import 'blocks/map';
+@import 'blocks/modal';
 @import 'blocks/media';

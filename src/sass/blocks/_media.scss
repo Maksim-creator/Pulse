@@ -7,12 +7,15 @@
             font-size: 20px;
         }
     }
+    
 }
-@media (max-width:991px){
+@media (max-width:768px){
     .header{
+        
         &__logo{
             width: 200px;
         }
+    
     }
 
     .promo{
@@ -29,7 +32,47 @@
             align-items: center;
         }
     }
+
+    .consultation{
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+ 
+    .slick-prev, .slick-next{
+        display: none;
+    }
+    
+
+    .catalog{ 
+        &__content {
+            flex-direction: column;
+            
+        }
+        &-item {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+
+    .answers {
+        &__text {
+            font-size: 13px;
+        }
+        &__wrapper {
+            height: 200px;
+        }
+    }
 }
+
 
 @media (max-width: 426px){
     .header{
@@ -55,6 +98,51 @@
         }
         &__icons{
             justify-content: space-around;
+        }
+    }
+
+    .consultation {
+        &__header {
+            font-size: 30px;
+        }
+    }
+
+    .carousel {
+        overflow: hidden;
+        &__inner {
+            width: 425px;           
+        }
+        img {
+            width: 300px;
+            text-align: center;
+        }
+        
+    }
+
+    .slick-dots {
+        display: flex;
+    }
+
+  
+    
+    .catalog{
+        &__header {
+            font-size: 27px;
+        }
+        &__tab {
+            width: 112px;
+            font-size: 12px;
+        }
+    }
+
+    .answers {
+        &__text {
+            font-size: 9px;
+        }
+    }
+    .map {
+        iframe {
+            width: 100%;
         }
     }
 }
@@ -90,6 +178,33 @@
     .advantages{
         &__header{
             font-size: 26px;
+        }
+    }
+
+    .answers {
+        &__text {
+            font-size: 10px;
+        }
+        &__logo {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .map {
+        padding: 0;
+        &__address {
+            margin-top: 15px;
+        }
+        &__phone {
+            margin-top: 15px;
+        }
+        &__wrapper {
+            height: 250px;
+            width: 300px;
+        }
+        &__pic {
+            margin-top: 25px;
         }
     }
 }

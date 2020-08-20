@@ -18,5 +18,11 @@
   },
   "dependencies": {
     "gulp-rename": "^2.0.0"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }
